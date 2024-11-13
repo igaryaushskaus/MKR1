@@ -1,0 +1,22 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Solution Condition="'$(Solution)' == ''"></Solution>
+    </PropertyGroup>
+
+    <ItemGroup Condition="'$(Solution)' != ''">
+        <ProjectFile Include="$(Solution)\**\*.csproj" />
+    </ItemGroup>
+
+    <Target Name="Build">
+        <MSBuild Projects="@(ProjectFile)" Targets="Restore;Build" />
+    </Target>
+
+    <Target Name="Test">
+        <Exec Command="dotnet test $(Solution)" />
+    </Target>
+
+    <Target Name="Run">
+        <Exec Command="dotnet run --project &quot;$(Solution)&quot;" />
+    </Target>
+</Project>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMKR1", "XMKR1\XMKR1.csproj", "{F36F59EC-ACA8-4A02-808C-CE9309484016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMKR1.Tests", "XMKR1.Tests\XMKR1.Tests.csproj", "{57DA3D6C-FB09-499A-BA7E-19B3FA940BF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F36F59EC-ACA8-4A02-808C-CE9309484016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36F59EC-ACA8-4A02-808C-CE9309484016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36F59EC-ACA8-4A02-808C-CE9309484016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36F59EC-ACA8-4A02-808C-CE9309484016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DA3D6C-FB09-499A-BA7E-19B3FA940BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DA3D6C-FB09-499A-BA7E-19B3FA940BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DA3D6C-FB09-499A-BA7E-19B3FA940BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DA3D6C-FB09-499A-BA7E-19B3FA940BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
